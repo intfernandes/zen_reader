@@ -1,8 +1,8 @@
-import 'package:anx_reader/models/read_theme.dart';
-import 'package:anx_reader/utils/get_base_path.dart';
-import 'package:anx_reader/models/book.dart';
-import 'package:anx_reader/models/book_style.dart';
-import 'package:anx_reader/service/book_player/book_player_server.dart';
+import 'package:zen_reader/models/read_theme.dart';
+import 'package:zen_reader/utils/get_base_path.dart';
+import 'package:zen_reader/models/book.dart';
+import 'package:zen_reader/models/book_style.dart';
+import 'package:zen_reader/service/book_player/book_player_server.dart';
 
 String generateIndexHtml(
     Book book, BookStyle style, ReadTheme theme, String cfi) {

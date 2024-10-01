@@ -1,4 +1,4 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
 import 'package:flutter/material.dart';
 
 class BookshelfTips extends StatelessWidget {

@@ -1,8 +1,8 @@
-import 'package:anx_reader/config/shared_preference_provider.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/utils/ui/status_bar.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/page_turning/diagram.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/page_turning/types_and_icons.dart';
+import 'package:zen_reader/config/shared_preference_provider.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/utils/ui/status_bar.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/page_turning/diagram.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/page_turning/types_and_icons.dart';
 import 'package:flutter/material.dart';
 
 Widget themeSettings = StatefulBuilder(

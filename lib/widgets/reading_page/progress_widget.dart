@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/page/book_player/epub_player.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/page/book_player/epub_player.dart';
 import 'package:flutter/material.dart';
 
 

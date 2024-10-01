@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:anx_reader/page/book_detail.dart';
-import 'package:anx_reader/dao/book.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/models/book.dart';
-import 'package:anx_reader/service/book.dart';
+import 'package:zen_reader/page/book_detail.dart';
+import 'package:zen_reader/dao/book.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/models/book.dart';
+import 'package:zen_reader/service/book.dart';
 import 'package:flutter/material.dart';
 
 

@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:anx_reader/dao/book.dart';
-import 'package:anx_reader/dao/book_note.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/main.dart';
+import 'package:zen_reader/dao/book.dart';
+import 'package:zen_reader/dao/book_note.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 

@@ -1,9 +1,9 @@
-import 'package:anx_reader/config/shared_preference_provider.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/main.dart';
-import 'package:anx_reader/utils/app_version.dart';
-import 'package:anx_reader/utils/log/common.dart';
-import 'package:anx_reader/utils/toast/common.dart';
+import 'package:zen_reader/config/shared_preference_provider.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/main.dart';
+import 'package:zen_reader/utils/app_version.dart';
+import 'package:zen_reader/utils/log/common.dart';
+import 'package:zen_reader/utils/toast/common.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';

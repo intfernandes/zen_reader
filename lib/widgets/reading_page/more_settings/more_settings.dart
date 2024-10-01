@@ -1,8 +1,8 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/main.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/font_settings.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/theme_settings.dart';
-import 'package:contentsize_tabbarview/contentsize_tabbarview.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/main.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/font_settings.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/theme_settings.dart';
+// import 'package:contentsize_tabbarview/contentsize_tabbarview.dart';
 import 'package:flutter/material.dart';
 
 enum ReadingSettings { theme, style }
@@ -36,14 +36,15 @@ void showMoreSettings(ReadingSettings settings) {
                 maxHeight: MediaQuery.of(context).size.height * 0.5,
                 maxWidth: MediaQuery.of(context).size.width * 0.8,
               ),
-              child: ContentSizeTabBarView(
-                animationDuration: const Duration(milliseconds: 600),
-                controller: tabController,
-                children: [
-                  themeSettings,
-                  fontSettings,
-                ],
-              ),
+              // Todo:should be rebuild one day
+              // child: ContentSizeTabBarView(
+              //   animationDuration: const Duration(milliseconds: 600),
+              //   controller: tabController,
+              //   children: [
+              //     themeSettings,
+              //     fontSettings,
+              //   ],
+              // ),
             ),
           ],
         ),

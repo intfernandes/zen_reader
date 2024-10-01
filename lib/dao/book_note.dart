@@ -1,4 +1,4 @@
-import 'package:anx_reader/models/book_note.dart';
+import 'package:zen_reader/models/book_note.dart';
 
 import 'database.dart';
 

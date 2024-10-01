@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/utils/get_path/log_file.dart';
-import 'package:anx_reader/utils/toast/common.dart';
-import 'package:anx_reader/utils/log/common.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/utils/get_path/log_file.dart';
+import 'package:zen_reader/utils/toast/common.dart';
+import 'package:zen_reader/utils/log/common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_file_dialog/flutter_file_dialog.dart';

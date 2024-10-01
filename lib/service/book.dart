@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:anx_reader/dao/book.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/main.dart';
-import 'package:anx_reader/models/book.dart';
-import 'package:anx_reader/utils/get_base_path.dart';
-import 'package:anx_reader/utils/log/common.dart';
-import 'package:anx_reader/page/reading_page.dart';
-import 'package:anx_reader/utils/import_book.dart';
-import 'package:anx_reader/utils/toast/common.dart';
+import 'package:zen_reader/dao/book.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/main.dart';
+import 'package:zen_reader/models/book.dart';
+import 'package:zen_reader/utils/get_base_path.dart';
+import 'package:zen_reader/utils/log/common.dart';
+import 'package:zen_reader/page/reading_page.dart';
+import 'package:zen_reader/utils/import_book.dart';
+import 'package:zen_reader/utils/toast/common.dart';
 import 'package:epubx/epubx.dart';
 import 'package:flutter/material.dart';
 

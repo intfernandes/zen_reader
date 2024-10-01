@@ -1,11 +1,11 @@
-import 'package:anx_reader/config/shared_preference_provider.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/more_settings.dart';
-import 'package:anx_reader/widgets/reading_page/widget_title.dart';
-import 'package:anx_reader/dao/theme.dart';
-import 'package:anx_reader/main.dart';
-import 'package:anx_reader/models/read_theme.dart';
-import 'package:anx_reader/page/book_player/epub_player.dart';
+import 'package:zen_reader/config/shared_preference_provider.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/more_settings.dart';
+import 'package:zen_reader/widgets/reading_page/widget_title.dart';
+import 'package:zen_reader/dao/theme.dart';
+import 'package:zen_reader/main.dart';
+import 'package:zen_reader/models/read_theme.dart';
+import 'package:zen_reader/page/book_player/epub_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 

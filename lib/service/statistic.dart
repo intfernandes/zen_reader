@@ -1,5 +1,5 @@
-import 'package:anx_reader/models/reading_time.dart';
-import 'package:anx_reader/dao/reading_time.dart';
+import 'package:zen_reader/models/reading_time.dart';
+import 'package:zen_reader/dao/reading_time.dart';
 
 
 class StatisticService {

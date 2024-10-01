@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:anx_reader/main.dart';
+import 'package:zen_reader/main.dart';
 
 
 Future<dynamic> showSimpleDialog(

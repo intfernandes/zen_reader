@@ -1,5 +1,5 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/statistic/week_month_year_widget.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/statistic/week_month_year_widget.dart';
 import 'package:flutter/material.dart';
 
 
@@ -69,8 +69,8 @@ class _ChartCardState extends State<ChartCard> {
           });
         },
         style: ButtonStyle(
-          backgroundColor: WidgetStateProperty.resolveWith<Color>(
-                (Set<WidgetState> states) {
+          backgroundColor: MaterialStateProperty.resolveWith<Color>(
+                (Set<MaterialState> states) {
               if (_currentMode == mode) {
                 return Theme
                     .of(context)
@@ -83,8 +83,8 @@ class _ChartCardState extends State<ChartCard> {
                   .surface;
             },
           ),
-          foregroundColor: WidgetStateProperty.resolveWith<Color>(
-                (Set<WidgetState> states) {
+          foregroundColor: MaterialStateProperty.resolveWith<Color>(
+                (Set<MaterialState> states) {
               if (_currentMode == mode) {
                 return Theme
                     .of(context)

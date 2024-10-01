@@ -1,8 +1,8 @@
-import 'package:anx_reader/config/shared_preference_provider.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/settings/settings_title.dart';
-import 'package:anx_reader/widgets/settings/simple_dialog.dart';
-import 'package:anx_reader/widgets/settings/theme_mode.dart';
+import 'package:zen_reader/config/shared_preference_provider.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/settings/settings_title.dart';
+import 'package:zen_reader/widgets/settings/simple_dialog.dart';
+import 'package:zen_reader/widgets/settings/theme_mode.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:provider/provider.dart';

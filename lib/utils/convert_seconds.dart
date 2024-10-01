@@ -1,5 +1,5 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/main.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/main.dart';
 import 'package:flutter/cupertino.dart';
 
 BuildContext context = navigatorKey.currentContext!;

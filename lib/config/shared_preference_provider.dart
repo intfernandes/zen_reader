@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:core';
 
-import 'package:anx_reader/models/book_style.dart';
-import 'package:anx_reader/models/read_theme.dart';
+import 'package:zen_reader/models/book_style.dart';
+import 'package:zen_reader/models/read_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

@@ -1,4 +1,4 @@
-import 'package:anx_reader/models/read_theme.dart';
+import 'package:zen_reader/models/read_theme.dart';
 
 import 'database.dart';
 

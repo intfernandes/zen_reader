@@ -1,6 +1,6 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/utils/webdav/common.dart';
-import 'package:anx_reader/main.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/utils/webdav/common.dart';
+import 'package:zen_reader/main.dart';
 import 'package:flutter/material.dart';
 
 

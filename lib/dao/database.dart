@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:anx_reader/utils/get_base_path.dart';
-import 'package:anx_reader/utils/get_path/databases_path.dart';
-import 'package:anx_reader/utils/log/common.dart';
+import 'package:zen_reader/utils/get_base_path.dart';
+import 'package:zen_reader/utils/get_path/databases_path.dart';
+import 'package:zen_reader/utils/log/common.dart';
 import 'package:flutter/foundation.dart';
 import 'package:path/path.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
@@ -153,11 +153,11 @@ class DBHelper {
       case 1:
         // add a column (rating) to tb_books
         await db.execute('ALTER TABLE tb_books ADD COLUMN rating REAL');
-        // remove '/data/user/0/com.anxcye.anx_reader/app_flutter/' from file_path & cover_path
+        // remove '/data/user/0/com.anxcye.zen_reader/app_flutter/' from file_path & cover_path
         await db.execute(
-            'UPDATE tb_books SET file_path = REPLACE(file_path, "/data/user/0/com.anxcye.anx_reader/app_flutter/", "")');
+            'UPDATE tb_books SET file_path = REPLACE(file_path, "/data/user/0/com.anxcye.zen_reader/app_flutter/", "")');
         await db.execute(
-            'UPDATE tb_books SET cover_path = REPLACE(cover_path, "/data/user/0/com.anxcye.anx_reader/app_flutter/", "")');
+            'UPDATE tb_books SET cover_path = REPLACE(cover_path, "/data/user/0/com.anxcye.zen_reader/app_flutter/", "")');
         continue case2;
       case2:
       case 2:

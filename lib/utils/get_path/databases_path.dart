@@ -1,4 +1,4 @@
-import 'package:anx_reader/utils/get_path/documents_path.dart';
+import 'package:zen_reader/utils/get_path/documents_path.dart';
 import 'package:flutter/foundation.dart';
 import 'package:sqflite/sqflite.dart';
 

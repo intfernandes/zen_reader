@@ -1,6 +1,6 @@
-import 'package:anx_reader/dao/reading_time.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/statistic/statistic_chart.dart';
+import 'package:zen_reader/dao/reading_time.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/statistic/statistic_chart.dart';
 import 'package:flutter/material.dart';
 
 

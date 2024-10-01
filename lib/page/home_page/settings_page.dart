@@ -1,6 +1,6 @@
-import 'package:anx_reader/page/settings_page/more_settings_page.dart';
-import 'package:anx_reader/widgets/settings/about.dart';
-import 'package:anx_reader/widgets/settings/theme_mode.dart';
+import 'package:zen_reader/page/settings_page/more_settings_page.dart';
+import 'package:zen_reader/widgets/settings/about.dart';
+import 'package:zen_reader/widgets/settings/theme_mode.dart';
 import 'package:flutter/material.dart';
 
 class SettingsPage extends StatefulWidget {

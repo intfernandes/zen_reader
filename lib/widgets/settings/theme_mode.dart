@@ -1,8 +1,8 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/utils/theme_mode_to_string.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/utils/theme_mode_to_string.dart';
 import 'package:flutter/material.dart';
 
-import 'package:anx_reader/config/shared_preference_provider.dart';
+import 'package:zen_reader/config/shared_preference_provider.dart';
 
 class ChangeThemeMode extends StatefulWidget {
   const ChangeThemeMode({super.key});
@@ -43,18 +43,18 @@ class _ChangeThemeModeState extends State<ChangeThemeMode> {
           });
         },
         style: ButtonStyle(
-          backgroundColor: WidgetStateProperty.resolveWith<Color>(
-            (Set<WidgetState> states) {
-              if (states.contains(WidgetState.pressed) ||
+          backgroundColor: MaterialStateProperty.resolveWith<Color>(
+            (Set<MaterialState> states) {
+              if (states.contains(MaterialState.pressed) ||
                   _themeMode == mode) {
                 return Theme.of(context).colorScheme.primary;
               }
               return Theme.of(context).colorScheme.surface;
             },
           ),
-          foregroundColor: WidgetStateProperty.resolveWith<Color>(
-            (Set<WidgetState> states) {
-              if (states.contains(WidgetState.pressed) ||
+          foregroundColor: MaterialStateProperty.resolveWith<Color>(
+            (Set<MaterialState> states) {
+              if (states.contains(MaterialState.pressed) ||
                   _themeMode == mode) {
                 return Theme.of(context).colorScheme.onPrimary;
               }

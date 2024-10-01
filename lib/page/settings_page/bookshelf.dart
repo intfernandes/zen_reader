@@ -1,6 +1,6 @@
 
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/settings/settings_app_bar.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/settings/settings_app_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:settings_ui/settings_ui.dart';

@@ -1,8 +1,8 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/page/settings_page/advanced.dart';
-import 'package:anx_reader/page/settings_page/appearance.dart';
-import 'package:anx_reader/page/settings_page/sync.dart';
-import 'package:anx_reader/widgets/settings/about.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/page/settings_page/advanced.dart';
+import 'package:zen_reader/page/settings_page/appearance.dart';
+import 'package:zen_reader/page/settings_page/sync.dart';
+import 'package:zen_reader/widgets/settings/about.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

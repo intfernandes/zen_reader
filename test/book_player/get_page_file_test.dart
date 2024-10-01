@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:anx_reader/service/book_player/book_player.dart';
+import 'package:zen_reader/service/book_player/book_player.dart';
 import 'package:epubx/epubx.dart';
 
 getFilePageTest() async {

@@ -1,5 +1,5 @@
-import 'package:anx_reader/models/book.dart';
-import 'package:anx_reader/widgets/book_item.dart';
+import 'package:zen_reader/models/book.dart';
+import 'package:zen_reader/widgets/book_item.dart';
 import 'package:flutter/material.dart';
 
 

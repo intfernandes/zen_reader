@@ -1,16 +1,16 @@
 import 'dart:convert';
 
-import 'package:anx_reader/config/shared_preference_provider.dart';
-import 'package:anx_reader/dao/book_note.dart';
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/models/book_style.dart';
-import 'package:anx_reader/models/read_theme.dart';
-import 'package:anx_reader/page/reading_page.dart';
-import 'package:anx_reader/utils/coordiantes_to_part.dart';
-import 'package:anx_reader/utils/log/common.dart';
-import 'package:anx_reader/models/book_note.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/page_turning/diagram.dart';
-import 'package:anx_reader/widgets/reading_page/more_settings/page_turning/types_and_icons.dart';
+import 'package:zen_reader/config/shared_preference_provider.dart';
+import 'package:zen_reader/dao/book_note.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/models/book_style.dart';
+import 'package:zen_reader/models/read_theme.dart';
+import 'package:zen_reader/page/reading_page.dart';
+import 'package:zen_reader/utils/coordiantes_to_part.dart';
+import 'package:zen_reader/utils/log/common.dart';
+import 'package:zen_reader/models/book_note.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/page_turning/diagram.dart';
+import 'package:zen_reader/widgets/reading_page/more_settings/page_turning/types_and_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';

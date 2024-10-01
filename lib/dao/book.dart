@@ -1,7 +1,7 @@
 
-import 'package:anx_reader/dao/database.dart';
-import 'package:anx_reader/models/book.dart';
-import 'package:anx_reader/utils/log/common.dart';
+import 'package:zen_reader/dao/database.dart';
+import 'package:zen_reader/models/book.dart';
+import 'package:zen_reader/utils/log/common.dart';
 
 Future<int> insertBook(Book book) async {
   final db = await DBHelper().database;

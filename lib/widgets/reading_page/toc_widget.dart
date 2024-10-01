@@ -1,7 +1,7 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/reading_page/widget_title.dart';
-import 'package:anx_reader/models/toc_item.dart';
-import 'package:anx_reader/page/book_player/epub_player.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/reading_page/widget_title.dart';
+import 'package:zen_reader/models/toc_item.dart';
+import 'package:zen_reader/page/book_player/epub_player.dart';
 import 'package:flutter/material.dart';
 
 
@@ -87,7 +87,7 @@ class _TocItemWidgetState extends State<TocItemWidget> {
                   widget.epubPlayerKey.currentState!.goTo(widget.tocItem.href);
                 },
                 style: ButtonStyle(
-                  padding: WidgetStateProperty.all(EdgeInsets.zero),
+                  padding: MaterialStateProperty.all(EdgeInsets.zero),
                   alignment: Alignment.centerLeft,
                 ),
                 child: Text(

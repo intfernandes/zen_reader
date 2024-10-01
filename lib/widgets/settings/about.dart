@@ -1,6 +1,6 @@
-import 'package:anx_reader/l10n/localization_extension.dart';
-import 'package:anx_reader/widgets/settings/link_icon.dart';
-import 'package:anx_reader/utils/check_update.dart';
+import 'package:zen_reader/l10n/localization_extension.dart';
+import 'package:zen_reader/widgets/settings/link_icon.dart';
+import 'package:zen_reader/utils/check_update.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:icons_plus/icons_plus.dart';
